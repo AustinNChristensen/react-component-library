@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reactstarter/eslint-config": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -11,6 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "eslint src --fix",
     "startStorybook": "start-storybook -p 9001 -c .storybook"
   },
   "browserslist": {
@@ -26,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@storybook/preset-create-react-app": "^2.1.1",
+    "@storybook/preset-create-react-app": "^2.1.2",
     "@storybook/react": "^5.3.17",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

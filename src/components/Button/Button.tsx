@@ -15,6 +15,7 @@ export const Button = ({ children,
         secondary && styles.secondary,
         disabled && styles.btnDisabled
     ].filter(Boolean);
+
     return (
         <button
             className={classes.join(' ')}
